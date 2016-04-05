@@ -4,7 +4,6 @@
     "label": "Programmer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/1dd/396/1efa045.jpg",
     "email": "alex[at]alxmnn[dot]com",
-    "phone": "(937)-251-7792",
     "website": "http://www.alxmnn.com/",
     "summary": "",
     "location": {
@@ -38,14 +37,14 @@
       "position": "Software Engineer",
       "website": "https://rjmetrics.com/about",
       "startDate": "2014-05-19",
-      "summary": "RJMetrics is a data analytics firm that exist to help clients make data-driven decisions. Their products CloudBI, and Pipeline focus on two distinct personas. The business user, and the data engineer respectively. CloudBI boasts a full stack BI tool starting with client data, and ending with transformed metrics and charts in a user friendly UI. Pipeline is strictly a workhorse, moving data as fast as possible from many disparate sources into Amazon's Redshift MPP Datastore."
+      "summary": "RJMetrics is a data analytics firm that exist to help clients make data-driven decisions. Their products CloudBI, and Pipeline focus on two distinct personas. The business user, and the data engineer respectively. CloudBI boasts a full stack BI tool starting with client data, and ending with transformed metrics and charts in a user friendly UI. Pipeline is strictly a workhorse, moving data as fast as possible from many disparate sources into Amazon's Redshift MPP Datastore.",
       "highlights": [
         "Lead the database replication team when developing Pipline.",
         "Developed an async Java Process runner in Clojure which allows JVMs which are not the master to crash without effecting the root application.",
         "Won the 2016 Winter Hackathon.",
-        "Lead a 'Theories in Lunchtime' group which focused on reading the latest papers and discussing them...over lunch."
+        "Lead a 'Theories in Lunchtime' group which focused on reading the latest papers and discussing them...over lunch.",
         "Gave a talk at Mongo World Headquarters about Conflict Resilient Data-types and their applicaiton to data-etl tools in the context of MongoDB",
-        "Helped develop an internal tool for migrating clients' custome php scripts to a java scripting language."
+        "Helped develop an internal tool for migrating clients' custome php scripts to a java scripting language.",
         "Process improvements to how internal support is carried out by the dev team.",
         "Migrated the team from the Grunt build tool to Gulp, with no reported prod level bugs."
       ]
