@@ -3,7 +3,7 @@
     "name": "Alexander Mann",
     "label": "Programmer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/1dd/396/1efa045.jpg",
-    "email": "alex@alxmnn.com",
+    "email": "alex[at]alxmnn[dot]com",
     "phone": "(937)-251-7792",
     "website": "http://www.alxmnn.com/",
     "summary": "",
@@ -202,11 +202,11 @@
   "references": [
     {
       "name": "David Pledger",
-      "reference": "Can be reached at: david.pledger@sds-consulting.com"
+      "reference": "Can be reached at: david.pledger[at]sds-consulting[dot]com"
     },
     {
       "name": "Keith Gregory",
-      "reference": "Can be reached at: contact@kdgregory.com"
+      "reference": "Can be reached at: contact[at]kdgregory[dot]com"
     }
   ]
 }
