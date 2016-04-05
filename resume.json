@@ -2,107 +2,168 @@
   "basics": {
     "name": "Alexander Mann",
     "label": "Programmer",
-    "picture": "",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/1dd/396/1efa045.jpg",
     "email": "alex@alxmnn.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "phone": "(937)-251-7792",
+    "website": "http://www.alxmnn.com/",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "913 S 3rd St",
+      "postalCode": "PA 19147",
+      "city": "Philadelphia",
       "countryCode": "US",
-      "region": "California"
+      "region": "Pennsylvanis"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "GitHub",
+        "username": "AlexanderMann",
+        "url": "https://github.com/AlexanderMann"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "alexandermann1",
+        "url": "https://www.linkedin.com/in/alexandermann1"
       },
       {
         "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "username": "drunken-ambassador",
+        "url": "https://soundcloud.com/drunken-ambassador"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "RJMetrics",
+      "position": "Software Engineer",
+      "website": "https://rjmetrics.com/about",
+      "startDate": "2014-05-19",
+      "summary": "RJMetrics is a data analytics firm that exist to help clients make data-driven decisions. Their products CloudBI, and Pipeline focus on two distinct personas. The business user, and the data engineer respectively. CloudBI boasts a full stack BI tool starting with client data, and ending with transformed metrics and charts in a user friendly UI. Pipeline is strictly a workhorse, moving data as fast as possible from many disparate sources into Amazon's Redshift MPP Datastore."
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Lead the database replication team when developing Pipline.",
+        "Developed an async Java Process runner in Clojure which allows JVMs which are not the master to crash without effecting the root application.",
+        "Won the 2016 Winter Hackathon.",
+        "Lead a 'Theories in Lunchtime' group which focused on reading the latest papers and discussing them...over lunch."
+        "Gave a talk at Mongo World Headquarters about Conflict Resilient Data-types and their applicaiton to data-etl tools in the context of MongoDB",
+        "Helped develop an internal tool for migrating clients' custome php scripts to a java scripting language."
+        "Process improvements to how internal support is carried out by the dev team.",
+        "Migrated the team from the Grunt build tool to Gulp, with no reported prod level bugs."
+      ]
+    },
+    {
+      "company": "Strategic Data Systems",
+      "position": "Software Consultant",
+      "website": "http://www.sds-consulting.com/",
+      "startDate": "2013-05-01",
+      "endDate": "2014-05-01",
+      "summary": "SDS provides specialized technology solutions to clients in many different fields.",
+      "highlights": [
+        "Able to optimize long running SQL processes and see imrpovements at many orders of magnitude."
+      ]
+    },
+    {
+      "company": "Tribologix",
+      "position": "Research Assistant and Productions Technician",
+      "website": "http://tribologix.com/",
+      "startDate": "2011-01-01",
+      "endDate": "2012-08-01",
+      "summary": "An innovative tribology lab with creative solutions to everything related to friction. Coatings that perform well in both atmosphere and space applications, PVD applications.",
+      "highlights": [
+        "Designed a cooling system for a cathodic arc deposition chamber.",
+        "Built a vaccuum chamber from scratch a number of times."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "organization": "K12 Art Gallery",
+      "position": "A Member of the We",
+      "website": "http://www.k12gallery.org/",
+      "startDate": "2010-06-01",
+      "endDate": "2014-05-01",
+      "summary": "K12 Gallery and TEJAS is a regional visual arts center offering innovative visual arts programs for all ages in Dayton, Ohio. These programs include art classes, in school and after school art education programs, summer art camps, field trips, professional exhibitions, public art, workshops, community outreach, and art parties for all ages. K12 Gallery & TEJAS, a nonprofit arts organization, is located in the heart of Dayton at 341 S. Jefferson St.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Building 3 entries for the 'Dayton Takes Flight' public art celebration."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
+      "institution": "The University of Trinity College at the University of Toronto",
+      "area": "Computer Science, Mathematics, Fine Art",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "startDate": "2009-09-01",
+      "endDate": "2013-06-01",
+      "gpa": "3.84",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "Cressy Award",
+      "date": "2013-06-01",
+      "awarder": "University Of Toronto",
+      "summary": "Awarded 'for outstanding contributions to improving the world and inspiring others to do the same' based on faculty recommendations for overall service to the university community."
+    },
+    {
+      "title": "Heaslip Scholarship",
+      "date": "2010-09-01",
+      "awarder": "University Of Trinity College",
+      "summary": "Three-year full ride scholarship awarded for outstanding academics and community involvement."
     }
   ],
   "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Team Management",
+      "level": "Novice",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Agile",
+        "Management",
+        "Humans",
+        "Event planning",
+        "Ice bar"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Functional Programming",
+      "level": "Evangelist",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Clojure",
+        "Scheme",
+        "Lisp",
+        "Functional"
+      ]
+    },
+    {
+      "name": "Carpenter",
+      "level": "Missing-bits-of-fingers",
+      "keywords": [
+        "Wood",
+        "Design"
+      ]
+    },
+    {
+      "name": "Musician",
+      "level": "Many-instruments",
+      "keywords": [
+        "Cello",
+        "Mandolin",
+        "Guitar",
+        "Electric Bass"
+      ]
+    },
+    {
+      "name": "Artist",
+      "level": "Novice",
+      "keywords": [
+        "Print making",
+        "Installation",
+        "3D",
+        "Concept",
+        "Grafiti"
       ]
     }
   ],
@@ -110,21 +171,42 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic knowledge"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Algorithms",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Completeness",
+        "Complexity",
+        "Fault tolerance",
+        "CQRS",
+        "CRDT",
+        "Neural Nets",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Mountains",
+      "keywords": [
+        "Climbing",
+        "Crampons",
+        "Mountaineering"
       ]
     }
   ],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "David Pledger",
+      "reference": "Can be reached at: david.pledger@sds-consulting.com"
+    },
+    {
+      "name": "Keith Gregory",
+      "reference": "Can be reached at: contact@kdgregory.com"
     }
   ]
 }
