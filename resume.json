@@ -44,7 +44,7 @@
       "startDate": "2014-05-19",
       "summary": "RJMetrics is a data analytics firm that exist to help clients make data-driven decisions. Their products CloudBI, and Pipeline focus on two distinct personas. The business user, and the data engineer respectively. CloudBI boasts a full stack BI tool starting with client data, and ending with transformed metrics and charts in a user friendly UI. Pipeline is strictly a workhorse, moving data as fast as possible from many disparate sources into Amazon's Redshift MPP Datastore.",
       "highlights": [
-        "Lead the database replication team when developing Pipline.",
+        "Lead the database replication team when developing Pipeline.",
         "Developed an async Java Process runner in Clojure which allows JVMs which are not the master to crash without effecting the root application.",
         "Won the 2016 Winter Hackathon.",
         "Lead a 'Theories in Lunchtime' group which focused on reading the latest papers and discussing them...over lunch.",
