@@ -3,9 +3,9 @@
     "name": "Alexander Mann",
     "label": "Programmer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/1dd/396/1efa045.jpg",
-    "email": "alex[at]alxmnn[dot]com",
+    "email": "alex@alxmnn.com",
     "website": "http://www.alxmnn.com/",
-    "summary": "",
+    "summary": "To work for a reputable firm where my knowledge, talents, creativity, and tenacity will be fully utilized. To continue pushing myself, and continue learning. To leave my environment, work, and world better than I found it. To design elegant solutions to difficult problems with a talented team in which I can be both a leader and follower.",
     "location": {
       "address": "913 S 3rd St",
       "postalCode": "PA 19147",
@@ -28,6 +28,11 @@
         "network": "SoundCloud",
         "username": "drunken-ambassador",
         "url": "https://soundcloud.com/drunken-ambassador"
+      },
+      {
+        "network": "Medium",
+        "username": "alxmnn",
+        "url": "https://medium.com/@ALXMNN"
       }
     ]
   },
