@@ -42,14 +42,14 @@
       "position": "Software Engineer",
       "website": "https://rjmetrics.com/about",
       "startDate": "2014-05-19",
-      "summary": "RJMetrics is a data analytics firm that exist to help clients make data-driven decisions. Their products CloudBI, and Pipeline focus on two distinct personas. The business user, and the data engineer respectively. CloudBI boasts a full stack BI tool starting with client data, and ending with transformed metrics and charts in a user friendly UI. Pipeline is strictly a workhorse, moving data as fast as possible from many disparate sources into Amazon's Redshift MPP Datastore.",
+      "summary": "RJMetrics is a data analytics firm that exists to help clients make data-driven decisions. Their products CloudBI, and Pipeline focus on two distinct personas: the business user, and the data engineer respectively. CloudBI boasts a full stack BI tool starting with client data, and ending with transformed metrics and charts in a user friendly UI. Pipeline is strictly a workhorse, moving data as fast as possible from many disparate sources into Amazon's Redshift MPP Datastore.",
       "highlights": [
         "Lead the database replication team when developing Pipeline.",
         "Developed an async Java Process runner in Clojure which allows JVMs which are not the master to crash without effecting the root application.",
         "Won the 2016 Winter Hackathon.",
         "Lead a 'Theories in Lunchtime' group which focused on reading the latest papers and discussing them...over lunch.",
-        "Gave a talk at Mongo World Headquarters about Conflict Resilient Data-types and their applicaiton to data-etl tools in the context of MongoDB",
-        "Helped develop an internal tool for migrating clients' custome php scripts to a java scripting language.",
+        "Gave a talk at Mongo World Headquarters about Conflict Resilient Data-types and their application to data-etl tools in the context of MongoDB",
+        "Helped develop an internal tool for migrating clients' custom php scripts to a java scripting language.",
         "Process improvements to how internal support is carried out by the dev team.",
         "Migrated the team from the Grunt build tool to Gulp, with no reported prod level bugs."
       ]
@@ -62,7 +62,7 @@
       "endDate": "2014-05-01",
       "summary": "SDS provides specialized technology solutions to clients in many different fields.",
       "highlights": [
-        "Able to optimize long running SQL processes and see imrpovements at many orders of magnitude."
+        "Optimized long running SQL processes and saw improvements at many orders of magnitude."
       ]
     },
     {
@@ -74,7 +74,7 @@
       "summary": "An innovative tribology lab with creative solutions to everything related to friction. Coatings that perform well in both atmosphere and space applications, PVD applications.",
       "highlights": [
         "Designed a cooling system for a cathodic arc deposition chamber.",
-        "Built a vaccuum chamber from scratch a number of times."
+        "Built a vacuum chamber from scratch a number of times."
       ]
     }
   ],
@@ -87,7 +87,7 @@
       "endDate": "2014-05-01",
       "summary": "K12 Gallery and TEJAS is a regional visual arts center offering innovative visual arts programs for all ages in Dayton, Ohio. These programs include art classes, in school and after school art education programs, summer art camps, field trips, professional exhibitions, public art, workshops, community outreach, and art parties for all ages. K12 Gallery & TEJAS, a nonprofit arts organization, is located in the heart of Dayton at 341 S. Jefferson St.",
       "highlights": [
-        "Building 3 entries for the 'Dayton Takes Flight' public art celebration."
+        "Built 3 entries for the 'Dayton Takes Flight' public art celebration."
       ]
     }
   ],
@@ -95,7 +95,7 @@
     {
       "institution": "The University of Trinity College at the University of Toronto",
       "area": "Computer Science, Mathematics, Fine Art",
-      "studyType": "Bachelor",
+      "studyType": "Bachelors",
       "startDate": "2009-09-01",
       "endDate": "2013-06-01",
       "gpa": "3.84",
@@ -107,8 +107,8 @@
     {
       "title": "Cressy Award",
       "date": "2013-06-01",
-      "awarder": "University Of Toronto",
-      "summary": "Awarded 'for outstanding contributions to improving the world and inspiring others to do the same' based on faculty recommendations for overall service to the university community."
+      "awarder": "University of Toronto",
+      "summary": "Awarded \"for outstanding contributions to improving the world and inspiring others to do the same\" based on faculty recommendations for overall service to the university community."
     },
     {
       "title": "Heaslip Scholarship",
@@ -142,7 +142,7 @@
       ]
     },
     {
-      "name": "Carpenter",
+      "name": "Carpentry",
       "level": "Missing-bits-of-fingers",
       "keywords": [
         "Wood",
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "name": "Musician",
+      "name": "Music",
       "level": "Many-instruments",
       "keywords": [
         "Cello",
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "name": "Artist",
+      "name": "Art",
       "level": "Novice",
       "keywords": [
         "Print making",
