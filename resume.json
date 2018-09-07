@@ -244,18 +244,22 @@
   "references": [
     {
       "name": "David Pledger",
+      "role": "Owner of SDS",
       "reference": "Can be reached at: david.pledger[at]sds-consulting[dot]com"
     },
     {
       "name": "Mike Levy",
+      "role": "Mentor while at SDS",
       "reference": "Can be reached at: ma_levy[at]hotmail[dot]com"
     },
     {
       "name": "Keith Callis",
+      "role": "Mentor while at SDS",
       "reference": "Can be reached at: keith[dot]sds[at]keithcallis[dot]com"
     },
     {
       "name": "Keith Gregory",
+      "role": "Mentor while at RJMetrics/StitchData",
       "reference": "Can be reached at: contact[at]kdgregory[dot]com"
     }
   ]
