@@ -26,29 +26,34 @@
       "reference": "Can be reached at: [first name]@stitchdata.com"
     },
     {
-      "name": "Madhumitha Viswanathan",
-      "role": "SRE while at CircleCI",
-      "reference": "Can be reached at:"
+      "name": "Madhumitha (Madhu) Viswanathan",
+      "role": "Senior Site Reliability Engineer while at CircleCI",
+      "reference": "Can be reached at: [nickname]vishy@gmail.com"
     },
     {
       "name": "Mike Taylor (Bear)",
-      "role": "SRE while at CircleCI",
-      "reference": "Can be reached at:"
+      "role": "SRE Manager while at CircleCI",
+      "reference": "Can be reached at: [nickname]@[nickname].im"
     },
     {
       "name": "Conor McDermottroe",
       "role": "Senior Staff Engineer while at CircleCI",
-      "reference": "Can be reached at:"
+      "reference": "Can be reached at: [first name]@[lastname].com"
     },
     {
       "name": "Nathan Dintenfass",
       "role": "Principal Product Manager while at CircleCI",
-      "reference": "Can be reached at:"
+      "reference": "Can be reached at: [first name]@[last name].com"
     },
     {
       "name": "Olu Ayandosu",
       "role": "Senior Staff Engineer while at CircleCI",
-      "reference": "Can be reached at:"
+      "reference": "Can be reached at: o[last name]@gmail.com"
+    },
+    {
+      "name": "Rishi Kumar",
+      "role": "",
+      "reference": "[first name]m[last name]@gmail.com"
     }
   ]
 }
