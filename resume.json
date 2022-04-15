@@ -1,17 +1,16 @@
 {
+  "meta": { "theme": "elegant" },
   "basics": {
     "name": "Alexander Mann",
     "label": "Programmer",
-    "picture":
-      "https://raw.githubusercontent.com/AlexanderMann/alexandermann.github.io/master/img/alex_headshot_2018_square.jpeg",
-    "email": "alex[at]alxmnn[dot]com",
-    "website": "http://www.alxmnn.com/",
-    "summary":
-      "To work for a reputable firm where my knowledge, talents, creativity, and tenacity will be fully utilized. To continue pushing myself, and continue learning. To leave my environment, work, and world better than I found it. To design elegant solutions to difficult problems with a talented team in which I can be both a leader and follower.",
+    "picture": "https://raw.githubusercontent.com/AlexanderMann/dotfiles/master/img/avatars/mt-wash--square.jpg",
+    "email": "alex@chordstrategy.com",
+    "website": "https://registry.jsonresume.org/alexandermann",
+    "summary": "To work for a reputable firm where my knowledge, talents, creativity, and tenacity will be fully utilized. To continue pushing myself, and continue learning. To leave my environment, work, and world better than I found it. To design elegant solutions to difficult problems with a talented team in which I can be both a leader and follower.",
     "location": {
       "address": "<redacted>",
-      "postalCode": "53202",
-      "city": "Milwaukee",
+      "postalCode": "53704",
+      "city": "Madison",
       "countryCode": "US",
       "region": "Wisconsin"
     },
@@ -25,34 +24,65 @@
         "network": "LinkedIn",
         "username": "alexandermann1",
         "url": "https://www.linkedin.com/in/alexandermann1"
-      },
-      {
-        "network": "SoundCloud",
-        "username": "drunken-ambassador",
-        "url": "https://soundcloud.com/drunken-ambassador"
-      },
-      {
-        "network": "Medium",
-        "username": "alxmnn",
-        "url": "https://medium.com/@ALXMNN"
       }
     ]
   },
   "work": [
+    {
+      "company": "ChordStrategy",
+      "position": "Co-Founder - Technical",
+      "website": "https://thebattleofgiants.com/",
+      "startDate": "2019-06-01",
+      "summary": "ChordStrategy is a strategic consulting group focused on their core product: theBattleOfGiants.com. Offering alternative-data as a service for the strategic planning of companies, the Battle of Giants leverages Machine Learning, Natural Language Processing, and extraction/ingestion of recruiting data to be able to offer insight on not only a single companies movements in a market, but also entire industries.",
+      "highlights": [
+        "MVP launch in the 3rd quarter of 2019",
+        "Building up a robust data extraction pipeline which performs daily ingestion of live data into an analytics cluster",
+        "Reducing ETL cycle times from a month to a handful of hours",
+        "Reducing on-boarding of a new data source from a few weeks to a handful of hours",
+        "Overhauling our Wordpress site...never thought I'd have to go back to working in PHP..."
+      ]
+    },
+    {
+      "company": "DataMill.co",
+      "position": "Senior Software Engineer - Data Engineer - Open Source Maintainer",
+      "website": "https://datamill.co/",
+      "startDate": "2018-12-01",
+      "summary": "Data Mill helps organizations utilize modern data infrastructure and data science to power analytics, products, and services. With a focus on open source projects, DataMill.co actively gives back to the greater data-engineering community.",
+      "highlights": [
+        "Open source maintainer for the official https://www.singer.io/ PostgreSQL target. Took over the project from DataMill's founder, and made substantial improvements to the over all feature-set and architecture.",
+        "Building on the work done for https://github.com/datamill-co/target-postgres, built and maintain https://github.com/datamill-co/target-redshift, and https://github.com/datamill-co/target-snowflake",
+        "Championed the usage of GraphQL internally. Identified various improvements and issues with the Python implementation.",
+        "Built an analytics and reporting engine using GraphQL, Singer, and DBT technologies. Allowed for building quickly a robust React frontend on top of the client's dataset.",
+        "https://github.com/datamill-co/target-postgres",
+        "https://github.com/datamill-co/target-redshift",
+        "https://github.com/datamill-co/target-snowflake"
+      ]
+    },
+    {
+      "company": "Be Nice Now Design",
+      "position": "Co-founder - Owner/Operator",
+      "website": "https://www.be-nice-now.com/",
+      "startDate": "2018-12-01",
+      "summary": "BeNiceNow Design is a personal project company. This has afforded me the ability to vet out fun ideas, take on freelancing projects, and have a creative outlet for things like prints, textiles, design, etc.",
+      "highlights": [
+        "Working with Current Projects MKE for shop improvements, and space efficiency improvements. See more at https://www.mccawbudsberg.com/",
+        "Designing textiles and prints based on the Milwaukee People's Flag but incorporating local businesses to the Milwaukee Area",
+        "Top design category achieved a handful of times on Instagram"
+      ]
+    },
     {
       "company": "CircleCI",
       "position": "Senior Software Engineer",
       "website": "https://circleci.com/",
       "startDate": "2016-09-01",
       "endDate": "2018-09-14",
-      "summary":
-        "CircleCI allows teams to rapidly build quality projects, at scale. A SAAS CI tool which has both a Cloud and Enterprise offering.",
+      "summary": "CircleCI allows teams to rapidly build quality projects, at scale. A SAAS CI tool which has both a Cloud and Enterprise offering.",
       "highlights": [
         "Team lead for adding Google logins to the platform. Team thrived by using techniques like swarming and pair programming.",
         "Integrated Hashicorp's https://www.vaultproject.io/ into the platform to build out the shared secrets feature.",
         "Leveraged third party monitoring tools such as https://www.datadoghq.com/ and https://rollbar.com/ for monitoring/observability/discoverability programming practices.",
-        "Established the 'microservice-chassis' for the company. This lead into a full development team taking over the work later.",
-        "Improved realiability of the GraphQL API and Frontend deployments by providing developers with patterns and data around what versions were being run in client's browsers."
+        "Established the 'micro-service-chassis' for the company. This lead into a full development team taking over the work later.",
+        "Improved reliability of the GraphQL API and Frontend deployments by providing developers with patterns and data around what versions were being run in client's browsers."
       ]
     },
     {
@@ -61,8 +91,7 @@
       "website": "https://www.stitchdata.com/",
       "startDate": "2015-10-01",
       "endDate": "2016-09-01",
-      "summary":
-        "Stitch is a cloud-first ETL tool which is a developer-focused platform for rapidly moving data.",
+      "summary": "Stitch is a cloud-first ETL tool which is a developer-focused platform for rapidly moving data.",
       "highlights": [
         "Lead development of the database replication infrastructure for Stitch Data. Team was lead in a scrum/kanban fashion.",
         "Built a resilient job runner which could sync data from SQL and NoSQL data stores.",
@@ -76,8 +105,7 @@
       "website": "https://rjmetrics.com/about",
       "startDate": "2014-05-19",
       "endDate": "2015-10-01",
-      "summary":
-        "RJMetrics is a data analytics firm that exists to help clients make data-driven decisions. Their products CloudBI, and Pipeline focus on two distinct personas: the business user, and the data engineer respectively. CloudBI boasts a full stack BI tool starting with client data, and ending with transformed metrics and charts in a user friendly UI. Pipeline is strictly a workhorse, moving data as fast as possible from many disparate sources into Amazon's Redshift MPP Datastore.",
+      "summary": "RJMetrics is a data analytics firm that exists to help clients make data-driven decisions. Their products CloudBI, and Pipeline focus on two distinct personas: the business user, and the data engineer respectively. CloudBI boasts a full stack BI tool starting with client data, and ending with transformed metrics and charts in a user friendly UI. Pipeline is strictly a workhorse, moving data as fast as possible from many disparate sources into Amazon's Redshift MPP Datastore.",
       "highlights": [
         "Lead the database replication team when developing Pipeline.",
         "Developed an async Java Process runner in Clojure which allows JVMs which are not the master to crash without effecting the root application.",
@@ -95,8 +123,7 @@
       "website": "http://www.sds-consulting.com/",
       "startDate": "2013-05-01",
       "endDate": "2014-05-01",
-      "summary":
-        "SDS provides specialized technology solutions to clients in many different fields.",
+      "summary": "SDS provides specialized technology solutions to clients in many different fields.",
       "highlights": [
         "Optimized long running SQL processes and saw improvements at many orders of magnitude."
       ]
@@ -107,8 +134,7 @@
       "website": "http://tribologix.com/",
       "startDate": "2011-01-01",
       "endDate": "2012-08-01",
-      "summary":
-        "An innovative tribology lab with creative solutions to everything related to friction. Coatings that perform well in both atmosphere and space applications, PVD applications.",
+      "summary": "An innovative tribology lab with creative solutions to everything related to friction. Coatings that perform well in both atmosphere and space applications, PVD applications.",
       "highlights": [
         "Designed a cooling system for a cathodic arc deposition chamber.",
         "Built a vacuum chamber from scratch a number of times."
@@ -117,15 +143,23 @@
   ],
   "volunteer": [
     {
+      "organization": "Brady St. Area Association",
+      "position": "Board Member",
+      "website": "https://bradystreetareaassociation.org/",
+      "startDate": "2018-06-01",
+      "endDate": "2019-12-15",
+      "summary": "The Brady Street Area Association (BSAA) was formed in 1988 to partner neighbours and businesses to bolster the community.",
+      "highlights": [
+        "Designing the area t-shirt for the 2019-2020 season featuring the local fire-station's historic area map and coverage area",
+        "Annual community Halloween celebration known as the 'Spooktacular'"
+      ]
+    },
+    {
       "organization": "Big Brothers Big Sisters",
       "position": "Big",
       "website": "http://www.bbbsmilwaukee.org/",
       "startDate": "2017-08-01",
-      "summary":
-        "K12 Gallery and TEJAS is a regional visual arts center offering innovative visual arts programs for all ages in Dayton, Ohio. These programs include art classes, in school and after school art education programs, summer art camps, field trips, professional exhibitions, public art, workshops, community outreach, and art parties for all ages. K12 Gallery & TEJAS, a nonprofit arts organization, is located in the heart of Dayton at 341 S. Jefferson St.",
-      "highlights": [
-        "Built 3 entries for the 'Dayton Takes Flight' public art celebration."
-      ]
+      "summary": "Big Brothers Big Sisters is a one on one mentoring program which focuses on relationships that ignite the power and promise of youth."
     },
     {
       "organization": "K12 Art Gallery",
@@ -133,8 +167,7 @@
       "website": "http://www.k12gallery.org/",
       "startDate": "2010-06-01",
       "endDate": "2014-05-01",
-      "summary":
-        "K12 Gallery and TEJAS is a regional visual arts center offering innovative visual arts programs for all ages in Dayton, Ohio. These programs include art classes, in school and after school art education programs, summer art camps, field trips, professional exhibitions, public art, workshops, community outreach, and art parties for all ages. K12 Gallery & TEJAS, a nonprofit arts organization, is located in the heart of Dayton at 341 S. Jefferson St.",
+      "summary": "K12 Gallery and TEJAS is a regional visual arts center offering innovative visual arts programs for all ages in Dayton, Ohio. These programs include art classes, in school and after school art education programs, summer art camps, field trips, professional exhibitions, public art, workshops, community outreach, and art parties for all ages. K12 Gallery & TEJAS, a nonprofit arts organization, is located in the heart of Dayton at 341 S. Jefferson St.",
       "highlights": [
         "Built 3 entries for the 'Dayton Takes Flight' public art celebration."
       ]
@@ -142,8 +175,7 @@
   ],
   "education": [
     {
-      "institution":
-        "The University of Trinity College at the University of Toronto",
+      "institution": "The University of Trinity College at the University of Toronto",
       "area": "Computer Science, Mathematics, Fine Art",
       "studyType": "Bachelors",
       "startDate": "2009-09-01",
@@ -157,15 +189,13 @@
       "title": "Cressy Award",
       "date": "2013-06-01",
       "awarder": "University of Toronto",
-      "summary":
-        "Awarded \"for outstanding contributions to improving the world and inspiring others to do the same\" based on faculty recommendations for overall service to the university community."
+      "summary": "Awarded \"for outstanding contributions to improving the world and inspiring others to do the same\" based on faculty recommendations for overall service to the university community."
     },
     {
       "title": "Heaslip Scholarship",
       "date": "2010-09-01",
       "awarder": "University Of Trinity College",
-      "summary":
-        "Three-year full ride scholarship awarded for outstanding academics and community involvement."
+      "summary": "Three-year full ride scholarship awarded for outstanding academics and community involvement."
     }
   ],
   "publications": [
@@ -174,28 +204,64 @@
       "publisher": ":clojureD",
       "releaseDate": "2018-02-28",
       "website": "https://www.youtube.com/watch?v=jjuj-D4-hCE",
-      "summary":
-        ":clojureD is a conference highlighting the Clojure community based in Berlin. In this talk I walk through a specific frustration in Clojure: Logging. I highlight the frustrations CircleCI had in implementing a scalable logging setup in the Clojure language, and mainly focus on the team aspects of how to solve seemingly trivial but time consuming problems. https://github.com/AlexanderMann/unclogging"
+      "summary": ":clojureD is a conference highlighting the Clojure community based in Berlin. In this talk I walk through a specific frustration in Clojure: Logging. I highlight the frustrations CircleCI had in implementing a scalable logging setup in the Clojure language, and mainly focus on the team aspects of how to solve seemingly trivial but time consuming problems. https://github.com/AlexanderMann/unclogging"
     },
     {
       "name": "Charting the English Language...in pure Clojure",
       "publisher": "Clojure Conj",
       "releaseDate": "2016-12-01",
       "website": "https://www.youtube.com/watch?v=qRXhjElFJJE",
-      "summary":
-        "Clojure Conj is a conference hosted by Cognitect to highlight the current world of Clojure and functional programming! This talk highlights the work of Collobert and Weston on their groundbreaking tSNE implementation. In my talk I explore the state of machine learning in Clojure, implementing a C++/Python suite of ML algorithms in pure Clojure, and highlight the amazing world of machine generated images for exploring massive datasets. https://github.com/AlexanderMann/conj-2016"
+      "summary": "Clojure Conj is a conference hosted by Cognitect to highlight the current world of Clojure and functional programming! This talk highlights the work of Collobert and Weston on their groundbreaking tSNE implementation. In my talk I explore the state of machine learning in Clojure, implementing a C++/Python suite of ML algorithms in pure Clojure, and highlight the amazing world of machine generated images for exploring massive datasets. https://github.com/AlexanderMann/conj-2016"
     }
   ],
   "skills": [
     {
       "name": "Team Management",
-      "level": "Novice",
-      "keywords": ["Agile", "Management", "Humans", "Event planning", "Ice bar"]
+      "level": "5",
+      "keywords": ["Agile", "Kanban", "Mentoring"]
     },
     {
       "name": "Functional Programming",
-      "level": "Evangelist",
-      "keywords": ["Clojure", "Scheme", "Lisp", "Functional"]
+      "level": "5",
+      "keywords": ["Clojure", "Scheme", "Lisp"]
+    },
+    {
+      "name": "Data Analytics",
+      "level": "5",
+      "keywords": ["Pipelines", "DBT", "SQL", "ML", "NLP", "Columnar/MapReduce"]
+    },
+    {
+      "name": "Developer Operations",
+      "level": "4",
+      "keywords": [
+        "Monitoring",
+        "Observability",
+        "Supportability",
+        "Kubernetes",
+        "AWS",
+        "Terraform",
+        "DataDog",
+        "Rollbar",
+        "Continuous Integration/Development"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "3",
+      "keywords": ["GraphQL", "Javascript", "React", "CSS", "Webpack"]
+    },
+    {
+      "name": "Open Source",
+      "level": "Maintainer",
+      "keywords": [
+        "Python",
+        "Singer",
+        "Github",
+        "Clojure",
+        "PostgreSQL",
+        "Redshift",
+        "Snowflake"
+      ]
     },
     {
       "name": "Carpentry",
@@ -210,7 +276,7 @@
     {
       "name": "Art",
       "level": "Novice",
-      "keywords": ["Print making", "Installation", "3D", "Concept", "Grafiti"]
+      "keywords": ["Print making", "Installation", "3D", "Concept", "Graffiti"]
     }
   ],
   "languages": [
@@ -243,24 +309,9 @@
   ],
   "references": [
     {
-      "name": "David Pledger",
-      "role": "Owner of SDS",
-      "reference": "Can be reached at: david.pledger[at]sds-consulting[dot]com"
-    },
-    {
-      "name": "Mike Levy",
-      "role": "Mentor while at SDS",
-      "reference": "Can be reached at: ma_levy[at]hotmail[dot]com"
-    },
-    {
-      "name": "Keith Callis",
-      "role": "Mentor while at SDS",
-      "reference": "Can be reached at: keith[dot]sds[at]keithcallis[dot]com"
-    },
-    {
-      "name": "Keith Gregory",
-      "role": "Mentor while at RJMetrics/StitchData",
-      "reference": "Can be reached at: contact[at]kdgregory[dot]com"
+      "name": "Available upon request",
+      "role": "N/A",
+      "reference": "N/A"
     }
   ]
 }
